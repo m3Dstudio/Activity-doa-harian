@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/background"
+    tools:context=".DoaHarianActivity"
+    >
+
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="horizontal"
+    >
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="105dp"
+        android:id="@+id/bt_orangTua"
+        android:text="DoaUntuk OrangTua"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="105dp"
+        android:id="@+id/bt_sebelummakan"
+        android:background="@drawable/btdoasebelummakan"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="105dp"
+        android:id="@+id/bt_setelahmakan"
+        android:background="@drawable/btsetelahmakan"/>
+
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_memakaiPakaian"
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:text="doa memakai pakaian"/>
+
+        <Button
+            android:id="@+id/bt_melepasPakaian"
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:text="doa melepas pakaian"/>
+
+        <Button
+            android:id="@+id/bt_doaBercermin"
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:text="doa bercermin"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/bt_masukRumah"
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:text="doa masuk rumah"/>
+
+        <Button
+            android:id="@+id/bt_keluarRumah"
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:text="doa keluar rumah"/>
+
+        <Button
+            android:id="@+id/bt_naikKendaraan"
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:text="doa naik kendaraan"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:id="@+id/bt_masukMasjid"
+            android:text="doa masuk MAsjid"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:id="@+id/bt_keluarMasjid"
+            android:text="doa keluar Masjid"
+            />
+
+        <Button
+            android:layout_width="100dp"
+            android:layout_height="105dp"
+            android:id="@+id/bt_turunHujan"
+            android:text="doa turun Hujan"
+            />
+    </LinearLayout>
+
+
+    </LinearLayout>
+
